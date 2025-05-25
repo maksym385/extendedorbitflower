@@ -1,0 +1,288 @@
+#usercolumn {
+  width: 50%;
+  padding-bottom: 180px;
+}
+
+#usercolumn .column {
+  padding-left: 2em;
+}
+
+#graphcolumn {
+  margin: 0;
+  padding: 0;
+  border-right: 1pt solid ButtonShadow;
+  min-width: 9em;
+}
+
+#graphcolumn .column {
+  margin: 0;
+  padding: 0;
+}
+
+#graphcolumn .column svg {
+  margin: 0;
+  padding: 0;
+}
+
+.ui-resizable-handle {
+  z-index: 99999;
+  color: ButtonShadow;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.ui-resizable-w {
+  cursor: w-resize;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: left bottom;
+  margin-top: -1em;
+  margin-left: 0.3em;
+}
+
+.ui-resizable-s {
+  right: 2em;
+  cursor: s-resize;
+  text-align: right;
+  margin-top: 1.1em;
+}
+
+ui-tab[data-tab^="edit-r"] {
+  background: #ad7fa8 !important;
+  color: white;
+}
+
+ui-tab[data-tab^="edit-u"] {
+  background-color: #729fcf !important;
+  color: white;
+}
+
+
+
+*[is=x-ui-] ui-content>ui-area .subject-editor .input-container {
+  padding-bottom: 15px;
+}
+
+*[is=x-ui-] ui-content>ui-area .subject-editor .input-container .subject-name-input {
+  width: 28.4em;
+}
+
+*[is=x-ui-] ui-content>ui-area .subject-editor .unit-select {
+  margin-bottom: 1.4em;
+}
+
+*[is=x-ui-] ui-content>ui-area .subject-editor .unit-row {
+  margin-bottom: 1.4em;
+}
+
+*[is=x-ui-] ui-content>ui-area .subject-editor .button-container {
+  display: flex;
+  gap: 5em;
+}
+
+
+*[is=x-ui-] ui-content>ui-area .roles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  margin-bottom: 1em;
+}
+
+*[is="x-ui-"] ui-area button.add-role-button,
+*[is="x-ui-"] ui-area button.remove-role-button {
+  padding: .1em .2em;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1em;
+}
+
+*[is="x-ui-"] ui-area button.add-unit-button,
+*[is="x-ui-"] ui-area button.remove-unit-button {
+  margin-bottom: 1.4em;
+  padding: .1em .2em;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.4em;
+  width: 30em;
+}
+
+.subject-editor .button-container button.editor-save-button-subject button.editor-clear-button-subject {
+  padding: 0.2em 2em;
+}
+
+*[is=x-ui-] ui-content>ui-area .role-row {
+  display: flex;
+  gap: 5px;
+}
+
+ui-area[data-belongs-to-tab^="edit-r"],
+ui-area[data-belongs-to-tab^="edit-u"] {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column, 
+*[is=x-ui-] ui-content > ui-area .roles-column {
+  width: 30em;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column .column-header,
+*[is=x-ui-] ui-content > ui-area .roles-column .column-header {
+  margin-bottom: 0.7em;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column .column-caption,
+*[is=x-ui-] ui-content > ui-area .roles-column .column-caption {
+  font-weight: bold;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column .temp-input-container,
+*[is=x-ui-] ui-content > ui-area .roles-column .temp-input-container {
+  display: flex;
+  gap: 5px;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column .temp-input-container button,
+*[is=x-ui-] ui-content > ui-area .roles-column .temp-input-container button,
+*[is=x-ui-] ui-content > ui-area .units-column .units-list .delete-icon,
+*[is=x-ui-] ui-content > ui-area .roles-column .roles-list .delete-icon {
+  padding: 5px 12px;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column .units-list,
+*[is=x-ui-] ui-content > ui-area .roles-column .roles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column .units-list div,
+*[is=x-ui-] ui-content > ui-area .roles-column .roles-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column .units-list div span,
+*[is=x-ui-] ui-content > ui-area .roles-column .roles-list div span {
+  cursor: pointer;
+}
+
+*[is=x-ui-] ui-content > ui-area .units-column .units-list .delete-icon,
+*[is=x-ui-] ui-content > ui-area .roles-column .roles-list .delete-icon {
+  cursor: pointer;
+}
+
+*[is=x-ui-] ui-content > ui-area#query-builder {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ffffff;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+*[is="x-ui-"] ui-content > ui-area#query-builder .expression-display {
+  background: #f5f5f5;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+*[is="x-ui-"] ui-content > ui-area#query-builder .current-selection-label {
+  padding: 0.5rem;
+}
+
+*[is="x-ui-"] ui-content > ui-area#query-builder .query-controls {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+*[is="x-ui-"] ui-content > ui-area#query-builder .control-group:first-child {
+  position: absolute;
+  left: 0;
+}
+
+*[is="x-ui-"] ui-content > ui-area#query-builder .control-group:first-child {
+  position: absolute;
+  left: 0;
+}
+
+.control-group {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+*[is="x-ui-"] ui-content > ui-area#query-builder .control-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: all 0.2s;
+}
+
+*[is="x-ui-"] ui-content > ui-area#query-builder .toggle-switch #queryToggle {
+  width: auto !important;
+}
+
+.toggle-switch {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+.toggle-switch input {
+  width: auto;
+  height: auto;
+  opacity: 0;
+}
+
+.toggle-slider {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  background-color: #d42626;
+  border-radius: 24px;
+  transition: .4s;
+}
+
+.toggle-slider:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+  background-color: #12db00;
+}
+
+.toggle-switch input:checked + .toggle-slider:before {
+  transform: translateX(26px);
+}
+
+.toggle-label {
+  margin-left: 8px;
+  font-size: 14px;
+}
+

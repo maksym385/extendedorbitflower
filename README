@@ -1,0 +1,43 @@
+Extended Orbitflower Model
+
+This project extends the Orbitflower model developed by Kriglstein and Mangler to support editing and mock integration with the CPEE (Cloud Process Execution Engine).
+
+
+Features:
+- Add, edit, and remove organizational elements (units, roles, subjects)
+- Build subject selection queries using the query builder
+- Selections retrievable though URL encoding
+
+How to Run:
+1. Ensure Ruby is installed.
+2. Install required gems:
+   gem install sinatra
+   gem install nokogiri
+3. From the project directory, run:
+   ruby server.rb
+4. Open in your browser:
+   http://localhost:4567/mock
+5. Access the visualization through the Button
+
+Note:
+- Integration with the CPEE is mocked.
+- Developed as part of an academic thesis.
+- The organizational XML has been anonymized
+
+Main Changes:
+- Included backend server.rb for REST functionallity
+- Upgrade from ui.js to uidash.js
+- Addition of helpers/editor.js
+- Addition of helpers/query-builder.js
+- Addition of helpers/query-builder.html
+- Adapted CSS styling
+
+Acknowledgments:
+This work extends the Orbitflower model by:
+
+S. Kriglstein, J. Mangler, and S. Rinderle-Ma,  
+“Who is who: On visualizing organizational models in collaborative systems,”  
+in *8th International Conference on Collaborative Computing: Networking, Applications and Worksharing (CollaborateCom 2012)*,  
+Pittsburgh, PA, USA, Oct. 14–17, 2012. ICST / IEEE, pp. 279–288.  
+doi: https://doi.org/10.4108/icst.collaboratecom.2012.250404
+

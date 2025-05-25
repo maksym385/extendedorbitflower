@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<organisation xmlns="http://cpee.org/ns/organisation/1.0">
+  <units>
+    <unit id="Dekanat Informatik">
+      <permissions/>
+    </unit>
+    <unit id="Studienservicecenter Informatik">
+      <permissions/>
+    </unit>
+    <unit id="Educational Technologies">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Theory and Applications of Algorithms">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Scientific Computing">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Software Architectures">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Future Communication">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Entertainment Computing">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Multimedia Information Systems">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Knowledge Engineering">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Visualization and Data Analysis">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Workflow Systems and Technology">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Data Analytics and Computing">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Bioinformatics and Computational Biology">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Cooperative Systems">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+    <unit id="Data Mining">
+      <parent>Dekanat Informatik</parent>
+      <permissions/>
+    </unit>
+  </units>
+  <roles>
+    <role id="Regular">
+      <permissions/>
+    </role>
+    <role id="Project">
+      <permissions/>
+    </role>
+    <role id="Senior Lecturer">
+      <permissions/>
+    </role>
+    <role id="Ass.Prof.">
+      <permissions/>
+    </role>
+    <role id="Univ.Prof.">
+      <permissions/>
+    </role>
+    <role id="Post.Doc.">
+      <parent>Project</parent>
+      <parent>Regular</parent>
+      <permissions/>
+    </role>
+    <role id="Prae.Doc.">
+      <parent>Project</parent>
+      <parent>Regular</parent>
+      <permissions/>
+    </role>
+    <role id="Staff">
+      <parent>Project</parent>
+      <parent>Regular</parent>
+      <permissions/>
+    </role>
+    <role id="Assistant">
+      <parent>Project</parent>
+      <parent>Regular</parent>
+      <permissions/>
+    </role>
+  </roles>
+  <subjects>
+    <subject id="Subject001" uid="001">
+      <relation unit="Workflow Systems and Technology" role="Project"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+      <relation unit="Educational Technologies" role="Regular"/>
+      <relation unit="Educational Technologies" role="Assistant"/>
+    </subject>
+    <subject id="Subject002" uid="002">
+      <relation unit="Workflow Systems and Technology" role="Project"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject003" uid="003">
+      <relation unit="Workflow Systems and Technology" role="Regular"/>
+      <relation unit="Workflow Systems and Technology" role="Staff"/>
+    </subject>
+    <subject id="Subject004" uid="004">
+      <relation unit="Dekanat Informatik" role="Regular"/>
+      <relation unit="Dekanat Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject005" uid="005">
+      <relation unit="Dekanat Informatik" role="Regular"/>
+      <relation unit="Dekanat Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject006" uid="006">
+      <relation unit="Dekanat Informatik" role="Regular"/>
+      <relation unit="Dekanat Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject007" uid="007">
+      <relation unit="Dekanat Informatik" role="Regular"/>
+      <relation unit="Dekanat Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject008" uid="008">
+      <relation unit="Dekanat Informatik" role="Regular"/>
+      <relation unit="Dekanat Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject009" uid="009">
+      <relation unit="Studienservicecenter Informatik" role="Regular"/>
+      <relation unit="Studienservicecenter Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject010" uid="010">
+      <relation unit="Studienservicecenter Informatik" role="Regular"/>
+      <relation unit="Studienservicecenter Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject011" uid="011">
+      <relation unit="Studienservicecenter Informatik" role="Regular"/>
+      <relation unit="Studienservicecenter Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject012" uid="012">
+      <relation unit="Studienservicecenter Informatik" role="Regular"/>
+      <relation unit="Studienservicecenter Informatik" role="Staff"/>
+    </subject>
+    <subject id="Subject013" uid="013">
+      <relation unit="Educational Technologies" role="Ass.Prof."/>
+    </subject>
+    <subject id="Subject014" uid="014">
+      <relation unit="Educational Technologies" role="Regular"/>
+      <relation unit="Educational Technologies" role="Assistant"/>
+    </subject>
+    <subject id="Subject015" uid="015">
+      <relation unit="Educational Technologies" role="Regular"/>
+      <relation unit="Educational Technologies" role="Assistant"/>
+    </subject>
+    <subject id="Subject016" uid="016">
+      <relation unit="Educational Technologies" role="Regular"/>
+      <relation unit="Educational Technologies" role="Staff"/>
+    </subject>
+    <subject id="Subject017" uid="017">
+      <relation unit="Educational Technologies" role="Project"/>
+      <relation unit="Educational Technologies" role="Assistant"/>
+    </subject>
+    <subject id="Subject018" uid="018">
+      <relation unit="Educational Technologies" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject019" uid="019">
+      <relation unit="Educational Technologies" role="Regular"/>
+      <relation unit="Educational Technologies" role="Assistant"/>
+    </subject>
+    <subject id="Subject020" uid="020">
+      <relation unit="Educational Technologies" role="Univ.Prof."/>
+      <relation unit="Educational Technologies" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject021" uid="021">
+      <relation unit="Educational Technologies" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject022" uid="022">
+      <relation unit="Educational Technologies" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject023" uid="023">
+      <relation unit="Educational Technologies" role="Regular"/>
+      <relation unit="Educational Technologies" role="Assistant"/>
+    </subject>
+    <subject id="Subject024" uid="024">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject025" uid="025">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject026" uid="026">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+      <relation unit="Future Communication" role="Regular"/>
+      <relation unit="Future Communication" role="Assistant"/>
+    </subject>
+    <subject id="Subject027" uid="027">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject028" uid="028">
+      <relation unit="Theory and Applications of Algorithms" role="Regular"/>
+      <relation unit="Theory and Applications of Algorithms" role="Staff"/>
+    </subject>
+    <subject id="Subject029" uid="029">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject030" uid="030">
+      <relation unit="Theory and Applications of Algorithms" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject031" uid="031">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+      <relation unit="Theory and Applications of Algorithms" role="Regular"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject032" uid="032">
+      <relation unit="Theory and Applications of Algorithms" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject033" uid="033">
+      <relation unit="Theory and Applications of Algorithms" role="Regular"/>
+      <relation unit="Theory and Applications of Algorithms" role="Staff"/>
+    </subject>
+    <subject id="Subject034" uid="034">
+      <relation unit="Theory and Applications of Algorithms" role="Regular"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject035" uid="035">
+      <relation unit="Theory and Applications of Algorithms" role="Regular"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject036" uid="036">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject037" uid="037">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject038" uid="038">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject039" uid="039">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject040" uid="040">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject041" uid="041">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject042" uid="042">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject043" uid="043">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+      <relation unit="Theory and Applications of Algorithms" role="Regular"/>
+    </subject>
+    <subject id="Subject044" uid="044">
+      <relation unit="Theory and Applications of Algorithms" role="Project"/>
+      <relation unit="Theory and Applications of Algorithms" role="Assistant"/>
+    </subject>
+    <subject id="Subject045" uid="045">
+      <relation unit="Scientific Computing" role="Project"/>
+      <relation unit="Scientific Computing" role="Assistant"/>
+    </subject>
+    <subject id="Subject046" uid="046">
+      <relation unit="Scientific Computing" role="Project"/>
+      <relation unit="Scientific Computing" role="Assistant"/>
+    </subject>
+    <subject id="Subject047" uid="047">
+      <relation unit="Scientific Computing" role="Univ.Prof."/>
+      <relation unit="Scientific Computing" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject048" uid="048">
+      <relation unit="Scientific Computing" role="Regular"/>
+      <relation unit="Scientific Computing" role="Staff"/>
+      <relation unit="Software Architectures" role="Regular"/>
+      <relation unit="Software Architectures" role="Staff"/>
+    </subject>
+    <subject id="Subject049" uid="049">
+      <relation unit="Scientific Computing" role="Regular"/>
+      <relation unit="Scientific Computing" role="Assistant"/>
+    </subject>
+    <subject id="Subject050" uid="050">
+      <relation unit="Scientific Computing" role="Project"/>
+      <relation unit="Scientific Computing" role="Assistant"/>
+    </subject>
+    <subject id="Subject051" uid="051">
+      <relation unit="Scientific Computing" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject052" uid="052">
+      <relation unit="Scientific Computing" role="Regular"/>
+      <relation unit="Scientific Computing" role="Assistant"/>
+    </subject>
+    <subject id="Subject053" uid="053">
+      <relation unit="Scientific Computing" role="Regular"/>
+      <relation unit="Scientific Computing" role="Staff"/>
+    </subject>
+    <subject id="Subject054" uid="054">
+      <relation unit="Scientific Computing" role="Project"/>
+      <relation unit="Scientific Computing" role="Assistant"/>
+    </subject>
+    <subject id="Subject055" uid="055">
+      <relation unit="Scientific Computing" role="Regular"/>
+      <relation unit="Scientific Computing" role="Staff"/>
+    </subject>
+    <subject id="Subject056" uid="056">
+      <relation unit="Visualization and Data Analysis" role="Project"/>
+      <relation unit="Visualization and Data Analysis" role="Assistant"/>
+    </subject>
+    <subject id="Subject057" uid="057">
+      <relation unit="Software Architectures" role="Project"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+      <relation unit="Software Architectures" role="Regular"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject058" uid="058">
+      <relation unit="Software Architectures" role="Senior Lecturer"/>
+    </subject>
+    <subject id="Subject059" uid="059">
+      <relation unit="Software Architectures" role="Project"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject060" uid="060">
+      <relation unit="Software Architectures" role="Project"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject061" uid="061">
+      <relation unit="Software Architectures" role="Regular"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject062" uid="062">
+      <relation unit="Software Architectures" role="Project"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject063" uid="063">
+      <relation unit="Software Architectures" role="Regular"/>
+      <relation unit="Software Architectures" role="Staff"/>
+    </subject>
+    <subject id="Subject064" uid="064">
+      <relation unit="Software Architectures" role="Project"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject065" uid="065">
+      <relation unit="Software Architectures" role="Project"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+      <relation unit="Software Architectures" role="Regular"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject066" uid="066">
+      <relation unit="Software Architectures" role="Project"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+      <relation unit="Software Architectures" role="Regular"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject067" uid="067">
+      <relation unit="Software Architectures" role="Project"/>
+      <relation unit="Software Architectures" role="Assistant"/>
+    </subject>
+    <subject id="Subject068" uid="068">
+      <relation unit="Software Architectures" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject069" uid="069">
+      <relation unit="Future Communication" role="Regular"/>
+      <relation unit="Future Communication" role="Staff"/>
+    </subject>
+    <subject id="Subject070" uid="070">
+      <relation unit="Future Communication" role="Regular"/>
+      <relation unit="Future Communication" role="Staff"/>
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Staff"/>
+    </subject>
+    <subject id="Subject071" uid="071">
+      <relation unit="Future Communication" role="Regular"/>
+      <relation unit="Future Communication" role="Staff"/>
+    </subject>
+    <subject id="Subject072" uid="072">
+      <relation unit="Entertainment Computing" role="Univ.Prof."/>
+      <relation unit="Entertainment Computing" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject073" uid="073">
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject074" uid="074">
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Staff"/>
+      <relation unit="Workflow Systems and Technology" role="Regular"/>
+      <relation unit="Workflow Systems and Technology" role="Staff"/>
+    </subject>
+    <subject id="Subject075" uid="075">
+      <relation unit="Multimedia Information Systems" role="Project"/>
+      <relation unit="Multimedia Information Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject076" uid="076">
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject077" uid="077">
+      <relation unit="Multimedia Information Systems" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject078" uid="078">
+      <relation unit="Multimedia Information Systems" role="Project"/>
+      <relation unit="Multimedia Information Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject079" uid="079">
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject080" uid="080">
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject081" uid="081">
+      <relation unit="Multimedia Information Systems" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject082" uid="082">
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Staff"/>
+      <relation unit="Multimedia Information Systems" role="Project"/>
+      <relation unit="Multimedia Information Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject083" uid="083">
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Staff"/>
+    </subject>
+    <subject id="Subject084" uid="084">
+      <relation unit="Multimedia Information Systems" role="Regular"/>
+      <relation unit="Multimedia Information Systems" role="Staff"/>
+    </subject>
+    <subject id="Subject085" uid="085">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Staff"/>
+    </subject>
+    <subject id="Subject086" uid="086">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Assistant"/>
+    </subject>
+    <subject id="Subject087" uid="087">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Staff"/>
+    </subject>
+    <subject id="Subject088" uid="088">
+      <relation unit="Knowledge Engineering" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject089" uid="089">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Staff"/>
+    </subject>
+    <subject id="Subject090" uid="090">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Assistant"/>
+    </subject>
+    <subject id="Subject091" uid="091">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Staff"/>
+    </subject>
+    <subject id="Subject092" uid="092">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Assistant"/>
+    </subject>
+    <subject id="Subject093" uid="093">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Assistant"/>
+    </subject>
+    <subject id="Subject094" uid="094">
+      <relation unit="Knowledge Engineering" role="Regular"/>
+      <relation unit="Knowledge Engineering" role="Staff"/>
+    </subject>
+    <subject id="Subject095" uid="095">
+      <relation unit="Visualization and Data Analysis" role="Project"/>
+      <relation unit="Visualization and Data Analysis" role="Assistant"/>
+    </subject>
+    <subject id="Subject096" uid="096">
+      <relation unit="Visualization and Data Analysis" role="Regular"/>
+      <relation unit="Visualization and Data Analysis" role="Staff"/>
+    </subject>
+    <subject id="Subject097" uid="097">
+      <relation unit="Visualization and Data Analysis" role="Project"/>
+      <relation unit="Visualization and Data Analysis" role="Assistant"/>
+    </subject>
+    <subject id="Subject098" uid="098">
+      <relation unit="Visualization and Data Analysis" role="Regular"/>
+      <relation unit="Visualization and Data Analysis" role="Staff"/>
+    </subject>
+    <subject id="Subject099" uid="099">
+      <relation unit="Visualization and Data Analysis" role="Regular"/>
+      <relation unit="Visualization and Data Analysis" role="Staff"/>
+    </subject>
+    <subject id="Subject100" uid="100">
+      <relation unit="Visualization and Data Analysis" role="Regular"/>
+      <relation unit="Visualization and Data Analysis" role="Assistant"/>
+    </subject>
+    <subject id="Subject101" uid="101">
+      <relation unit="Visualization and Data Analysis" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject102" uid="102">
+      <relation unit="Visualization and Data Analysis" role="Project"/>
+      <relation unit="Visualization and Data Analysis" role="Assistant"/>
+    </subject>
+    <subject id="Subject103" uid="103">
+      <relation unit="Visualization and Data Analysis" role="Regular"/>
+      <relation unit="Visualization and Data Analysis" role="Staff"/>
+    </subject>
+    <subject id="Subject104" uid="104">
+      <relation unit="Workflow Systems and Technology" role="Regular"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject105" uid="105">
+      <relation unit="Workflow Systems and Technology" role="Project"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject106" uid="106">
+      <relation unit="Workflow Systems and Technology" role="Project"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject107" uid="107">
+      <relation unit="Workflow Systems and Technology" role="Project"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject108" uid="108">
+      <relation unit="Workflow Systems and Technology" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject109" uid="109">
+      <relation unit="Workflow Systems and Technology" role="Regular"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject110" uid="110">
+      <relation unit="Workflow Systems and Technology" role="Project"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject111" uid="111">
+      <relation unit="Workflow Systems and Technology" role="Ass.Prof."/>
+    </subject>
+    <subject id="Subject112" uid="112">
+      <relation unit="Workflow Systems and Technology" role="Regular"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject113" uid="113">
+      <relation unit="Workflow Systems and Technology" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject114" uid="114">
+      <relation unit="Workflow Systems and Technology" role="Regular"/>
+      <relation unit="Workflow Systems and Technology" role="Staff"/>
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Staff"/>
+    </subject>
+    <subject id="Subject115" uid="115">
+      <relation unit="Workflow Systems and Technology" role="Regular"/>
+      <relation unit="Workflow Systems and Technology" role="Staff"/>
+      <relation unit="Workflow Systems and Technology" role="Project"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject116" uid="116">
+      <relation unit="Workflow Systems and Technology" role="Project"/>
+      <relation unit="Workflow Systems and Technology" role="Assistant"/>
+    </subject>
+    <subject id="Subject117" uid="117">
+      <relation unit="Workflow Systems and Technology" role="Senior Lecturer"/>
+    </subject>
+    <subject id="Subject118" uid="118">
+      <relation unit="Workflow Systems and Technology" role="Regular"/>
+      <relation unit="Workflow Systems and Technology" role="Staff"/>
+    </subject>
+    <subject id="Subject119" uid="119">
+      <relation unit="Bioinformatics and Computational Biology" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject120" uid="120">
+      <relation unit="Bioinformatics and Computational Biology" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject121" uid="121">
+      <relation unit="Bioinformatics and Computational Biology" role="Regular"/>
+      <relation unit="Bioinformatics and Computational Biology" role="Assistant"/>
+    </subject>
+    <subject id="Subject122" uid="122">
+      <relation unit="Cooperative Systems" role="Project"/>
+      <relation unit="Cooperative Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject123" uid="123">
+      <relation unit="Cooperative Systems" role="Regular"/>
+      <relation unit="Cooperative Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject124" uid="124">
+      <relation unit="Cooperative Systems" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject125" uid="125">
+      <relation unit="Cooperative Systems" role="Regular"/>
+      <relation unit="Cooperative Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject126" uid="126">
+      <relation unit="Cooperative Systems" role="Regular"/>
+      <relation unit="Cooperative Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject127" uid="127">
+      <relation unit="Cooperative Systems" role="Regular"/>
+      <relation unit="Cooperative Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject128" uid="128">
+      <relation unit="Cooperative Systems" role="Regular"/>
+      <relation unit="Cooperative Systems" role="Staff"/>
+    </subject>
+    <subject id="Subject129" uid="129">
+      <relation unit="Cooperative Systems" role="Regular"/>
+      <relation unit="Cooperative Systems" role="Assistant"/>
+    </subject>
+    <subject id="Subject130" uid="130">
+      <relation unit="Cooperative Systems" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject131" uid="131">
+      <relation unit="Cooperative Systems" role="Regular"/>
+      <relation unit="Cooperative Systems" role="Staff"/>
+    </subject>
+    <subject id="Subject132" uid="132">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject133" uid="133">
+      <relation unit="Data Mining" role="Project"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject134" uid="134">
+      <relation unit="Data Mining" role="Project"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject135" uid="135">
+      <relation unit="Data Mining" role="Project"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject136" uid="136">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Staff"/>
+    </subject>
+    <subject id="Subject137" uid="137">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject138" uid="138">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Staff"/>
+    </subject>
+    <subject id="Subject139" uid="139">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject140" uid="140">
+      <relation unit="Data Mining" role="Project"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject141" uid="141">
+      <relation unit="Data Mining" role="Ass.Prof."/>
+    </subject>
+    <subject id="Subject142" uid="142">
+      <relation unit="Data Mining" role="Project"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject143" uid="143">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject144" uid="144">
+      <relation unit="Data Mining" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject145" uid="145">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject146" uid="146">
+      <relation unit="Data Mining" role="Univ.Prof."/>
+    </subject>
+    <subject id="Subject147" uid="147">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject148" uid="148">
+      <relation unit="Data Mining" role="Project"/>
+      <relation unit="Data Mining" role="Assistant"/>
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject149" uid="149">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject150" uid="150">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject151" uid="151">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject152" uid="152">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Staff"/>
+    </subject>
+    <subject id="Subject153" uid="153">
+      <relation unit="Data Mining" role="Ass.Prof."/>
+    </subject>
+    <subject id="Subject154" uid="154">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject155" uid="155">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject156" uid="156">
+      <relation unit="Data Mining" role="Project"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject157" uid="157">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Staff"/>
+    </subject>
+    <subject id="Subject158" uid="158">
+      <relation unit="Data Mining" role="Regular"/>
+      <relation unit="Data Mining" role="Assistant"/>
+    </subject>
+    <subject id="Subject159" uid="159">
+      <relation unit="Workflow Systems and Technology" role="Staff"/>
+      <relation unit="Scientific Computing" role="Staff"/>
+    </subject>
+  </subjects>
+</organisation>
